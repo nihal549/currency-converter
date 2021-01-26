@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;   
+
+}
+nav{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 42px;
+  color: red;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  text-shadow: 5px 5px black;
+  padding: 0;
+  margin: 0;
+  transition: linear;
+  transition-property: border;
+  transition-duration: 2s;
+
+}
+
+h1{
+  padding: 0px;
+  margin: 0px;
+ 
+}
+
+.container{
+  margin: 25vh ;
+  display: flex;
+  width: 100px;
+  height: 300px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  background : linear-gradient(to right,rgba(77, 71, 71, 0.664), rgb(0,0,0));
+  background-blend-mode: soft-light;
+  font-size: 42px;
+  transition: all  ease-in;
+  animation:  scale-up-hor-left 2s ease-out ;
+}
+
+ @-webkit-keyframes scale-up-hor-left {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+}
+@keyframes scale-up-hor-left {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+}
+
+
+.first{
+  margin: 10px;
+
+}
+#currency-one{
+  padding: 5px;
+  background-color: black;
+  color: wheat;
+}
+#amount1{
+  padding: 5px;
+ 
+  box-shadow: 2px 2px 2px 2px white;
+ 
+  border-radius: 3px;
+  width: 300px;
+  outline: 0;
+  border: 0;
+
+}
+#currency-two{
+  padding: 5px;
+  background-color: black;
+  color: wheat;
+}
+#amount2{
+  padding: 5px;
+  
+  box-shadow: 2px 2px 2px 2px white;
+  
+  border-radius: 3px;
+  width: 300px;
+  outline: 0;
+  border: 0;
+
+}
+button{
+  padding: 5px;
+  width: 80px;
+}
+.rate{
+  color: white;
+}
+.wrap{
+  background-color: #111111;
+  opacity: 0.4;
+  
+}
